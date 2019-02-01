@@ -206,7 +206,12 @@ def problem0a(n):
     #        Simply try a few examples to convince yourself of this.
     #        ASK FOR HELP if you do not understand this hint.
     # -------------------------------------------------------------------------
-    if sum_of_digits(n) :
+   for k in range(n):
+        n = sum_of_digits(n)
+        if k % 2== 0:
+
+
+
         count = count +1
         return True
     else:
